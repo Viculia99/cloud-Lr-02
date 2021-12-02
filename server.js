@@ -11,7 +11,7 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 // [END enable_parser]
 
-app.get('/', (req, res) => {
+app.get('/submit', (req, res) => {
   res.send('Hello from App Engine!');
 });
 
